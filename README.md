@@ -1,28 +1,18 @@
-# MNIST_Classifier
-This project is a simple deep learning-based image classifier built using PyTorch to recognize handwritten digits from the MNIST dataset (0–9).
+This repository contains a deep learning model built with PyTorch to classify images from the Fashion MNIST dataset. The model is trained to recognize clothing items such as shirts, shoes, bags, and more — offering a more challenging alternative to traditional digit classification.
 
-🧠 MNIST Digit Classifier
-This project is a simple deep learning-based image classifier built using PyTorch to recognize handwritten digits from the MNIST dataset (0–9). The model is trained on the official MNIST training set and evaluated on the test set, achieving high accuracy in digit recognition.
+🧠 Features:
+PyTorch-based implementation
+Supports fully connected and/or convolutional neural network (CNN) architecture
+Training and evaluation scripts
+Accuracy and loss visualization
+Clean, modular code for easy experimentation and customization
 
-📦 Features:
-PyTorch implementation
-
-Fully connected or CNN architecture (based on your version)
-
-Training and evaluation scripts included
-
-Visualization of predictions and training progress
-
-Easily extendable to other image classification tasks
-
-📁 Contents:
-model.py: Model architecture
-
-traintest.py: Training loop
-
-utils.py: Helper functions (e.g., plotting, saving models)
-
-README.md: Project documentation
+📁 Project Structure:
+model.py – Defines the neural network architecture
+train.py – Training script with loss tracking
+test.py – Evaluation script for model performance
+utils.py – (Optional) Helper functions like plotting or saving models
+README.md – Documentation and setup instructions
 
 🧪 Dataset:
-MNIST Handwritten Digit Dataset
+Fashion MNIST: A dataset of Zalando's article images — 10 categories, 70,000 grayscale images.
